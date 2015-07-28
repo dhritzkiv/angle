@@ -9,7 +9,7 @@
         '../gyp/common.gypi',
         'compiler.gypi',
         'libGLESv2.gypi',
-        'libEGL.gypi'        
+        'libEGL.gypi'
     ],
 
     'variables':
@@ -30,7 +30,7 @@
         'angle_enable_glsl%': 1, # Enable this for all configs by default
         'angle_enable_hlsl%': 0,
         'angle_link_glx%': 0,
-        'angle_gl_library_type%': 'shared_library',
+        'angle_gl_library_type%': 'static_library',
         'dcheck_always_on%': 0,
         'conditions':
         [

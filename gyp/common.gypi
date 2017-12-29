@@ -19,7 +19,7 @@
         [
             '-Wall',
             '-Wchar-subscripts',
-            '-Werror',
+            #'-Werror',
             '-Wextra',
             '-Wformat=2',
             '-Winit-self',
@@ -50,7 +50,7 @@
         'default_configuration': 'Debug',
         'variables':
         {
-            'warn_as_error%': 1,
+            'warn_as_error%': 0,
         },
         'target_conditions':
         [
